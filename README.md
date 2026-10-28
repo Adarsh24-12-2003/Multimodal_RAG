@@ -26,15 +26,6 @@ python -m venv .venv
 
 Never display or commit `.env`. `.env.sample` contains safe placeholders.
 
-## Classroom run order
-
-```powershell
-.venv\Scripts\python.exe test_code.py
-.venv\Scripts\python.exe reset_local_db.py
-.venv\Scripts\python.exe build_index.py
-.venv\Scripts\python.exe ask.py
-.venv\Scripts\python.exe evaluate.py
-```
 
 Press Enter in `ask.py` to use the cross-modal demo question. It requires evidence from both the chart and the transcript.
 
